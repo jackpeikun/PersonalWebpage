@@ -7,15 +7,59 @@ body {
   background-size: cover;
   background-position: center;
   font-family: Lato;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 #content {
   text-align: center;
-  padding-top: 25%;
-  color: purple;
+  padding-top: 30%;
+  color: white;
 }
 
 h1 {
   font-weight: 700;
   font-size: 5em;
+}
+
+hr {
+  width: 300px;
+}
+
+.two-btns {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: white;
+  font-size: 1em;
+  padding: 15px 30px;
+  border: 2px solid white;
+  -webkit-transition:.5s; /* give the transition */
+}
+
+/* When hovering the link, bg change to white while text change to blk */
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* diable color change after click */
+a:focus {
+  color: white;
+}
+
+/* diable all underline effect */
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
+}
+
+#left {
+  margin-right: 6px;
+}
+
+#right {
+  margin-left: 6px;
 }
