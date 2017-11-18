@@ -2,6 +2,7 @@ body {
   background: url('../imgs/coding.jpg');
   background-size: cover;
   background-position: center;
+  font-family: Lato;
 }
 
 #content {
