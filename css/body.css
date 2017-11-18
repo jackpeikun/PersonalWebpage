@@ -1,0 +1,42 @@
+#content {
+  text-align: center;
+  padding-top: 30%;
+}
+
+.two-btns {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#left, #right {
+  color: white;
+  font-size: 1em;
+  padding: 15px 30px;
+  border: 2px solid white;
+  -webkit-transition:.5s; /* give the transition */
+}
+
+/* When hovering the link, bg change to white while text change to blk */
+#left:hover, #right:hover {
+  background-color: white;
+  color: black;
+}
+
+/* diable color change after click */
+#left:focus, #right:focus {
+  color: white;
+}
+
+/* diable all underline effect */
+#left, #left:hover, #left:active, #left:visited, #left:focus,
+#right, #right:hover, #right:active, #right:visited, #right:focus {
+  text-decoration: none;
+}
+
+#left {
+  margin-right: 6px;
+}
+
+#right {
+  margin-left: 6px;
+}
