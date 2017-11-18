@@ -1,0 +1,11 @@
+body {
+  background: url('../imgs/coding.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#content {
+  text-align: center;
+  padding-top: 25%;
+  color: purple;
+}
