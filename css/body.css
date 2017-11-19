@@ -16,15 +16,19 @@
   -webkit-transition:.5s; /* give the transition */
 }
 
-/* When hovering the link, bg change to white while text change to blk */
-#left:hover, #right:hover {
-  background-color: white;
-  color: black;
+#left:visited, #right:visited {
+  color: white;
 }
 
 /* diable color change after click */
 #left:focus, #right:focus {
   color: white;
+}
+
+/* When hovering the link, bg change to white while text change to blk */
+#left:hover, #right:hover {
+  background-color: white;
+  color: black;
 }
 
 /* diable all underline effect */
