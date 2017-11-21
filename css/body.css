@@ -44,3 +44,43 @@
 #right {
   margin-left: 6px;
 }
+
+.smIconL {
+  text-align: right;
+}
+
+.smIconR {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .smIconL, .smIconR {
+    text-align: center;
+  }
+}
+
+@media (min-width: 998px) {
+  .smIconL {
+    text-align: right;
+  }
+  .smIconR {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .smIconL {
+    text-align: right;
+  }
+  .smIconR {
+    text-align: left;
+  }
+}
+
+.fa:hover, .fa:visited, .fa:focus {
+  text-decoration: none;
+}
+
+.fa:visited {
+  color: #337ab7;
+}
