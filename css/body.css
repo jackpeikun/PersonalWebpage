@@ -77,10 +77,14 @@
   }
 }
 
+.fa {
+  color: #9d9d9d;
+}
+
 .fa:hover, .fa:visited, .fa:focus {
   text-decoration: none;
 }
 
-.fa:visited {
+/*.fa:visited {
   color: #337ab7;
-}
+}*/
