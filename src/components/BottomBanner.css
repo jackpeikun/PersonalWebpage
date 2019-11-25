@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+.component-bottom {
+  background-color: #222;
+  color: white;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.component-icon:hover {
+  color: lightseagreen;
+}
+
+.component-icon {
+  color: #9d9d9d;
+}
+
+.component-icon-wrapper {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.component-box {
+  padding-top: 40px;
+  height: 150px;
+}
+
+.component-left-box {
+  width: 50%;
+}
+
+.component-right-box {
+  width: 50%;
+}
+
+.component-copyright {
+  position: fixed;
+  bottom: 25px;
+  width: 100%;
+}
+
+.smIconL {
+  text-align: right;
+}
+
+.smIconR {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .smIconL,
+  .smIconR {
+    text-align: center;
+  }
+}
+
+@media (min-width: 998px) {
+  .smIconL {
+    text-align: right;
+  }
+  .smIconR {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .smIconL {
+    text-align: right;
+  }
+  .smIconR {
+    text-align: left;
+  }
+}

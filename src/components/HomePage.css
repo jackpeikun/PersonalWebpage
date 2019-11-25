@@ -1,0 +1,11 @@
+.main-content {
+  color: white;
+  text-align: left;
+
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
